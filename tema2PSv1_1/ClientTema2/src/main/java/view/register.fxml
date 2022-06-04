@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegisterViewController">
+   <children>
+      <Button fx:id="butonInregistrareUtilizator" layoutX="222.0" layoutY="315.0" mnemonicParsing="false" onAction="#onClickButonInregistrareUtilizator" text="InregistrareUtilizator" />
+      <TextField fx:id="numeUtilizatorTextField" layoutX="160.0" layoutY="74.0" />
+      <PasswordField fx:id="parolaTextField" layoutX="160.0" layoutY="169.0" />
+      <Label layoutX="48.0" layoutY="79.0" text="Nume utilizator" />
+      <Label layoutX="79.0" layoutY="174.0" text="Parola" />
+      <MenuButton fx:id="menuButton" layoutX="239.0" layoutY="232.0" mnemonicParsing="false" text="AlegeFunctie">
+        <items>
+          <MenuItem fx:id="item1" mnemonicParsing="false" text="Administrator" />
+          <MenuItem fx:id="item2" mnemonicParsing="false" text="CoordonatorActivitate" />
+            <MenuItem fx:id="item3" mnemonicParsing="false" text="Postas" />
+        </items>
+      </MenuButton>
+      <TextArea fx:id="textArea" layoutX="378.0" layoutY="32.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

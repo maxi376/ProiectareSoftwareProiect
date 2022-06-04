@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="566.0" prefWidth="833.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PostasViewController">
+   <children>
+      <Button fx:id="butonVizualizareTraseu" layoutX="342.0" layoutY="16.0" mnemonicParsing="false" onAction="#onClickButonVizualizareTraseu" text="Vizualizare Traseu" />
+      <Button fx:id="butonCautareColet" layoutX="630.0" layoutY="16.0" mnemonicParsing="false" onAction="#onClickButonCautareColet" text="Cautare Colet" />
+      <Button fx:id="butonVizualizareLista" layoutX="80.0" layoutY="16.0" mnemonicParsing="false" onAction="#onClickButonVizualizareLista" text="Vizualizare Lista" />
+      <ListView fx:id="listViewColete" layoutX="14.0" layoutY="85.0" prefHeight="455.0" prefWidth="249.0" />
+      <TextField fx:id="textDestinatie" layoutX="592.0" layoutY="106.0" />
+      <TextField fx:id="textGreutate" layoutX="592.0" layoutY="175.0" />
+      <TextField fx:id="textCoordonataX" layoutX="592.0" layoutY="241.0" />
+      <TextField fx:id="textCoordonataY" layoutX="592.0" layoutY="313.0" />
+      <TextField fx:id="textNumePostas" layoutX="592.0" layoutY="371.0" />
+      <Label layoutX="105.0" layoutY="56.0" text="Lista colete" />
+      <ListView fx:id="listViewTraseu" layoutX="312.0" layoutY="85.0" prefHeight="455.0" prefWidth="200.0" />
+      <Label layoutX="668.0" layoutY="85.0" text="Destinatie" />
+      <Label layoutX="673.0" layoutY="144.0" text="Greutate" />
+      <Label layoutX="666.0" layoutY="213.0" text="Coordonata X" />
+      <Label layoutX="667.0" layoutY="283.0" text="Coordonata Y" />
+      <Label layoutX="668.0" layoutY="350.0" text="Nume postas" />
+      <Label layoutX="394.0" layoutY="56.0" text="Traseu" />
+      <TextField fx:id="textFieldSearchColet" layoutX="592.0" layoutY="409.0" />
+      <TextField fx:id="textFieldSearchColet2" layoutX="592.0" layoutY="456.0" />
+      <TextField fx:id="textFieldSearchColet3" layoutX="592.0" layoutY="509.0" />
+   </children>
+</AnchorPane>

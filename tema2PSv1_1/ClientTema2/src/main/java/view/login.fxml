@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginViewController">
+   <children>
+      <Button fx:id="butonAutentificare" layoutX="248.0" layoutY="274.0" mnemonicParsing="false" onAction="#onClickButonAutentificare" text="Autentificare" />
+      <PasswordField fx:id="parolaTextField" layoutX="207.0" layoutY="185.0" />
+      <TextField fx:id="textFieldNumeUtilizator" layoutX="207.0" layoutY="111.0" />
+      <Label layoutX="84.0" layoutY="116.0" text="Nume utilizator" />
+      <Label layoutX="118.0" layoutY="190.0" text="Parola" />
+      <Button fx:id="butonInregistrare" layoutX="252.0" layoutY="319.0" mnemonicParsing="false" onAction="#onClickButonInregistrare" text="Inregistrare" />
+      <MenuButton fx:id="menuButton" layoutX="256.0" layoutY="227.0" mnemonicParsing="false" onAction="#onClickMenuButton" >
+      </MenuButton>
+   </children>
+</AnchorPane>

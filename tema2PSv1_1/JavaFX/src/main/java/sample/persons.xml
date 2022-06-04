@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<persons> 
+	<person age="10">
+		<firstName>first</firstName>
+		<lastName>first</lastName>
+
+		<age>10 </age>
+		<address>
+			<street>123 Main St</street>
+			<city>Spaghetio</city>
+			<zip>6666</zip>
+		</address> 
+		<cars> 
+			<car>Toyota Corona</car> 
+			<car>Honda Civic  </car>
+		</cars>
+	</person> 
+	
+	<person age="20">
+		<firstName>first</firstName>
+		<lastName>first</lastName>
+
+		<age>20</age> 
+		<address>
+			<street>123 Main Street</street> 
+			<city>peloni</city>
+			<zip>666</zip>
+		</address>
+		<cars> 
+			<car>Toyota Camry</car> 
+			<car>Honda Civic </car>
+		</cars> 
+	</person> 
+</persons> 

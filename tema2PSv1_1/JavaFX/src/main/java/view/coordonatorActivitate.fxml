@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CoordonatorActivitateController">
+   <children>
+      <Button fx:id="butonAlocareColet" layoutX="10.0" layoutY="20.0" mnemonicParsing="false" onAction="#onClickButonAlocareColet" text="Alocare colet postas" />
+      <Button fx:id="salvareRapoarte" layoutX="170.0" layoutY="20.0" mnemonicParsing="false" onAction="#onClickSalvareRapoarte" text="Salvare rapoarte" />
+      <Button fx:id="butonAdaugareColet" layoutX="20.0" layoutY="350.0" mnemonicParsing="false" onAction="#onClickButonAdaugareColet" text="Adaugare colet" />
+      <Button fx:id="butonUpdateColete" layoutX="450.0" layoutY="350.0" mnemonicParsing="false" onAction="#onClickButonUpdateColete" text="Update colete" />
+      <Button fx:id="butonAfisareColete" layoutX="180.0" layoutY="350.0" mnemonicParsing="false" onAction="#onClickButonAfisareColete" text="Afisare colete" />
+      <Button fx:id="butonStergeColet" layoutX="320.0" layoutY="350.0" mnemonicParsing="false" onAction="#onClickButonStergeColet" text="Sterge colet" />
+      <Button fx:id="butonVizualizareLista" layoutX="48.0" layoutY="55.0" mnemonicParsing="false" onAction="#onClickButonVizualizareLista" text="Vizualizare Lista" />
+      <Button fx:id="butonVizualizareTraseu" layoutX="235.0" layoutY="55.0" mnemonicParsing="false" onAction="#onClickButonVizualizareTraseu" text="Vizualizare Traseu" />
+      <Button fx:id="butonCautareColet" layoutX="420.0" layoutY="55.0" mnemonicParsing="false" onAction="#onClickButonCautareColet" text="Cautare Colet" />
+      <TextField fx:id="textField" layoutX="300.0" layoutY="20.0" onAction="#onClickTextField" />
+      <TextArea fx:id="textArea" layoutX="11.0" layoutY="89.0" prefHeight="258.0" prefWidth="584.0" />
+   </children>
+</AnchorPane>
